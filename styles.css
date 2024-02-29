@@ -1,0 +1,81 @@
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .todo-list {
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+body .todo-list .todo-header {
+  background-color: yellow;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+body .todo-list .todo-footer {
+  display: flex;
+  background-color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+body .todo-list .todo-footer input {
+  flex-grow: 1;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+body .todo-list .todo-footer button {
+  margin-right: 20px;
+  border: 1px solid green;
+  padding: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: blue;
+}
+
+.todo-body {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.todo-body ul,
+.todo-body ol {
+  list-style-type: none;
+  flex-grow: 1;
+  padding-left: 0;
+  margin-bottom: 0px;
+}
+.todo-body ul li,
+.todo-body ol li {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid gray;
+}
+.todo-body ul li button,
+.todo-body ol li button {
+  border: 1px solid red;
+  padding: 15px;
+  color: red;
+}
+.todo-body ul li input,
+.todo-body ol li input {
+  font-weight: bold;
+}
+.todo-body ul li label,
+.todo-body ol li label {
+  font-size: 20px;
+  font-weight: bold;
+}
+.todo-body ul li #item3,
+.todo-body ol li #item3 {
+  padding-bottom: 0;
+}/*# sourceMappingURL=styles.css.map */
